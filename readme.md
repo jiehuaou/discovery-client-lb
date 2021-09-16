@@ -1,5 +1,5 @@
 
-##  spring boot 2.3.x can work with Spring cloud version Hoxton.SRX
+##  spring cloud load-balancer work very well in spring boot 2.3.x with Spring cloud version Hoxton.SRX
 
 pom.xml
 ``` 
@@ -11,10 +11,10 @@ pom.xml
 <spring-cloud.version>Hoxton.SR12</spring-cloud.version>
 ```
 
-spring cloud load-balancer can fetch healthy service instance list.
+> spring cloud load-balancer can fetch healthy service instance list.
 
 
-##  spring boot 2.5.x can NOT work with Spring cloud version 2020.0.X
+## spring cloud load-balancer does not work in spring boot 2.5.x with Spring cloud version 2020.0.X
 
 pom.xml
 ``` 
@@ -26,6 +26,5 @@ pom.xml
 <spring-cloud.version>2020.0.3</spring-cloud.version>
 ```
 
-spring cloud load-balancer can not fetch service instance list 
-or even fetch the unhealthy instance.
+> spring cloud load-balancer can not fetch service instance list or even fetch the unhealthy instance.
 
